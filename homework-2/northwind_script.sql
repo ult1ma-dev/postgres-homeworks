@@ -11,7 +11,7 @@ SET client_min_messages = warning;
 
 SET default_tablespace = '';
 
-SET default_with_oids = false;
+-- Параметр default_with_oids удалён в PostgreSQL 12; для загрузки он не нужен.
 
 ---
 --- drop tables
